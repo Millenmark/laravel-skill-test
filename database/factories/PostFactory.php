@@ -21,8 +21,8 @@ class PostFactory extends Factory
         return [
             'user_id' => User::factory(),
             'content' => $this->faker->paragraph(),
-            'created_at' => now()->addMinutes(self::$counter++),
-            'updated_at' => now()->addMinutes(self::$counter++),
+            'created_at' => now()->addSeconds(self::$counter++),
+            'updated_at' => now()->addSeconds(self::$counter++),
         ];
     }
 }
