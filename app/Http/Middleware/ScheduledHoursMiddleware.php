@@ -18,7 +18,7 @@ class ScheduledHoursMiddleware
     {
         $hour = now()->format('H');
 
-        if ($hour >= 9 && $hour <= 16) {
+        if ($hour >= 9 && $hour <= 17) {
 
             abort(403, 'Sorry we\'re closed');
         }
