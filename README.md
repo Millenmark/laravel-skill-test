@@ -4,8 +4,8 @@
 
 1. Clone this repository
     ```bash
-    git clone git@github.com:denver3542/laravel-react-inertia-dev-test.git
-    cd laravel-react-inertia-dev-test
+    git clone https://github.com/Millenmark/laravel-skill-test.git
+    cd laravel-skill-test
     ```
 2. Install dependencies
     ```bash
@@ -20,10 +20,10 @@
     ```bash
     php artisan key:generate
     ```
-5. Run database migrations
+5. Run database migrations and the seeder
 
     ```bash
-    php artisan migrate
+    php artisan migrate --seed
     ```
 
 6. Start the development server
@@ -32,4 +32,16 @@
 composer dev
 ```
 
-6. Open your browser and visit `http://localhost:8000`
+- If you don't have the pail extension
+
+```bash
+php artisan server
+npm run dev
+```
+
+7. Open your browser and visit `http://localhost:8000/login`
+
+- email: test@example.com
+- password: password
+
+or you can register as a new user.
