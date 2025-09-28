@@ -1,0 +1,1 @@
+I don't have experience using wordpress elementor yet, but based on the elementor webiste [https://elementor.com/help/custom-code-pro/] there's a button where you can create your custom code. I think that's the way to put a script tag in wordpress elementor.
