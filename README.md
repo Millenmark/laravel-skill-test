@@ -45,3 +45,14 @@ npm run dev
 - password: password
 
 or you can register as a new user.
+
+## Note
+
+Laravel’s default timezone is set to **UTC**.  
+This means the middleware that restricts access from **9 AM to 5 PM** will use **UTC time** by default.
+
+If you want to test it using Philippine timezone (e.g., **Asia/Manila**), update the `timezone` value in `config/app.php`:
+
+```php
+'timezone' => 'Asia/Manila',
+```
